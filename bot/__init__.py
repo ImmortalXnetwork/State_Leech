@@ -275,7 +275,7 @@ SHOW_MEDIAINFO = SHOW_MEDIAINFO.lower() == "true"
 MEDIA_GROUP = environ.get("MEDIA_GROUP", "")
 MEDIA_GROUP = MEDIA_GROUP.lower() == "true"
 
-BASE_URL = environ.get("BASE_URL", "").rstrip("/")
+BASE_URL = environ.get("BASE_URL", "http://106.216.119.168:83").rstrip("/")
 if len(BASE_URL) == 0:
     warning("BASE_URL not provided!")
     BASE_URL = ""
