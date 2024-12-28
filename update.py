@@ -67,7 +67,7 @@ if len(BOT_TOKEN) == 0:
 
 bot_id = BOT_TOKEN.split(":", 1)[0]
 
-DATABASE_URL = environ.get("DATABASE_URL", "mongodb+srv://fazal0069:Fazal2002july@lucy.s374gzt.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URL = environ.get("DATABASE_URL", "mongodb+srv://fazals2002:fazals2002@filesharez.j3qzn.mongodb.net/?retryWrites=true&w=majority&appName=filesharez")
 if len(DATABASE_URL) == 0:
     DATABASE_URL = None
 
