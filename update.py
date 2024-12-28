@@ -60,7 +60,8 @@ except Exception:
 
 load_dotenv("config.env", override=True)
 
-BOT_TOKEN = environ.get("BOT_TOKEN", "6793523837:AAEAEnTXIk4FTI6M-6SI88ym5NYxuIu_Xw8")
+BOT_TOKEN = "6793523837:AAEAEnTXIk4FTI6M-6SI88ym5NYxuIu_Xw8"
+BOT_TOKEN = environ.get("BOT_TOKEN", "")
 if len(BOT_TOKEN) == 0:
     error("BOT_TOKEN variable is missing! Exiting now")
     sys.exit(1)
