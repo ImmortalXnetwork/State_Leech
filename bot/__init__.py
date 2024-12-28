@@ -136,21 +136,21 @@ GROUPS_EMAIL = environ.get("GROUPS_EMAIL", "")
 if len(GROUPS_EMAIL) != 0:
     GROUPS_EMAIL = GROUPS_EMAIL.lower()
 
-OWNER_ID = environ.get("OWNER_ID", "")
+OWNER_ID = environ.get("OWNER_ID", "1805959544")
 if len(OWNER_ID) == 0:
     error("OWNER_ID variable is missing! Exiting now")
     sys.exit(1)
 else:
     OWNER_ID = int(OWNER_ID)
 
-TELEGRAM_API = environ.get("TELEGRAM_API", "")
+TELEGRAM_API = environ.get("TELEGRAM_API", "14056295")
 if len(TELEGRAM_API) == 0:
     error("TELEGRAM_API variable is missing! Exiting now")
     sys.exit(1)
 else:
     TELEGRAM_API = int(TELEGRAM_API)
 
-TELEGRAM_HASH = environ.get("TELEGRAM_HASH", "")
+TELEGRAM_HASH = environ.get("TELEGRAM_HASH", "9ae65901d2eeb5854cc5aa562566d34a")
 if len(TELEGRAM_HASH) == 0:
     error("TELEGRAM_HASH variable is missing! Exiting now")
     sys.exit(1)
